@@ -1,0 +1,144 @@
+.container{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: table;
+    padding: 10 0;
+}
+
+.right-block , .left-block{
+    width: 50%;
+    height:100%;
+    display: table-cell;
+    /* float: left; */
+    
+}
+.material, .storage{
+    height:100%;
+    width: 94%;
+    padding: 3%;
+}
+
+.heading{
+    height: 6%;
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+    display: table;
+}
+.group-header{
+    font-size: 25px;
+    padding: 0 25px;
+}
+
+.list-container{
+    min-height: 100px;
+}
+.heading span{
+    display: table-cell;
+    vertical-align: middle;
+}
+.material-content{
+    height: 94%;
+    border:5px solid gray;
+    background-color:#cccccc;
+    position: relative;
+}
+
+.storage-content{
+    height: 94%;
+}
+
+.material-content .data-wrapper{
+    height: 50px;
+    text-align: center;
+}
+
+.material-content .data-wrapper .content-block{
+    height: 100%;
+    background:#fff;
+    border:3px solid #9a9a9a;
+    display: table;
+    width: 98%;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+
+.material-content .data-wrapper .content-block .id{
+    width: 70%;
+    display: table-cell;
+    vertical-align: middle;
+    border-right: 2px solid #9a9a9a;
+    text-align: center;
+    font-size: 25px;
+}
+
+.material-content .data-wrapper .content-block .name{
+    width: 30%;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.left-block{
+    background-color:#2dffc9;
+}
+
+.compartment{
+
+}
+
+.compartment-header{
+    background: #31a97f;
+    color:#fff;
+    height: 40px;
+    display: table;
+    text-align: center;
+    width: 100%;
+}
+
+.compartment-header span{
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 25px;
+    font-weight: 600;
+    color:white;
+}
+
+.compartment-body{
+    background: #ccfdef;
+    padding: 20px 0;
+}
+
+.compartment-body .data-wrapper{
+    height: 50px;
+    text-align: center;
+}
+
+.compartment-body .data-wrapper .content-block{
+    height: 100%;
+    background:#fff;
+    border:3px solid #9a9a9a;
+    display: table;
+    width: 98%;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+
+.compartment-body .data-wrapper .content-block .id{
+    width: 70%;
+    display: table-cell;
+    vertical-align: middle;
+    border-right: 2px solid #9a9a9a;
+    text-align: center;
+    font-size: px;
+}
+
+.compartment-body .data-wrapper .content-block .name{
+    width: 30%;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
